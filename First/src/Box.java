@@ -11,9 +11,7 @@ public class Box {
 		System.out.print("사각형의 너비를 입력하세요 : ");
 		w=input.nextDouble();
 		
-		
 		area=w+h;
-		
 		perimeter=2.0*(w+h);
 		
 		System.out.println("사각형의 면적은 "+area);
