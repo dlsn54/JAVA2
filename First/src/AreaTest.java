@@ -1,4 +1,3 @@
-import javax.swing.border.MatteBorder;
 
 public class AreaTest {
 	public static void main(String[] args) {
