@@ -18,11 +18,6 @@ public class Box {
 		
 		System.out.println("사각형의 면적은 "+area);
 		System.out.println("사각형의 둘레는 "+perimeter);
-		
-		
-		
-		
-
 	}
 
 }
