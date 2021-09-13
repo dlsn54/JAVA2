@@ -12,6 +12,7 @@ public class RollDice {
 			
 			System.out.println("====================");
 			System.out.println("¢¬ÄÞ¸¶");
+			System.out.println("====================");
 			
 		for (int i = 0; i < SIZE; i++)
 			

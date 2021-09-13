@@ -1,30 +1,21 @@
 
 public class CommandLine2 {
 
-	public static void main(String[] args) {
-//		int[] s =new int[5];
-//		s[0]=4;
-//		s[1]=7;
-//		s[2]=5;
-//		s[3]=8;
-//		s[4]=9;
-		
-		int s[] = {4,7,2,9,7};
-		String[] cnt= {"One","Two","Three","Four","5"};
-		
-		
-		int total=0;
-		
-		for (int i = 0; i < s.length; i++) {
-			total +=s[i];
-			System.out.println(cnt[i]);
-			
+	public static void main(String[] args) 
+		{
+			if(args.length>0) {
+				if(args[0].equals("-h"))
+					System.out.println("help");
+				else
+					for (int i = 1; i < args.length; i++) 
+					{
+						System.out.println(args[i]);
+					}
+			}
+			else
+			{
+				System.out.println("실행할 때 뒤에 아무 것도 없이 실행했네요");
+			}
 		}
-		
-		
-		
-		System.out.println("합 = "+total+"평균 = "+(double)total/s.length);
-		
-	}
-
 }
+
