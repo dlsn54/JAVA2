@@ -12,7 +12,8 @@ public class TheaterReserve {
 			System.out.println("==================");
 			for(int i = 0; i < SIZE; i++)
 				System.out.printf("%3d", seats[i]);
-			System.out.println();
+	
+	System.out.println();
 			System.out.println("==================");
 			
 		}

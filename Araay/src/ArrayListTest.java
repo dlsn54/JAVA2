@@ -11,8 +11,7 @@ public class ArrayListTest {
         intNum.add(400);
 
         System.out.println(intNum);
-        
-        
+                
         // add() method
         colors.add("Black");
         colors.add("White");
