@@ -1,0 +1,15 @@
+package pack1;
+
+public class MainTest {
+	public static void main(String[] args) {
+		PrivTest obj1= new PrivTest();
+		//obj1.a=1;
+		obj1.printB();
+		
+		DefaultTest obj2=new DefaultTest();
+		obj2.c=11;
+		obj2.d=22;
+		obj2.printC();
+		obj2.printD();
+	}
+}
